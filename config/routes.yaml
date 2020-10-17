@@ -1,3 +1,11 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\PingController::ping
+
+finances_summary:
+    path: /finances
+    controller: App\Controller\FinancesController::summary
+
+finances_incomes:
+    path: /finances/incomes
+    controller: App\Controller\FinancesController::incomes
