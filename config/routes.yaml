@@ -1,11 +1,11 @@
-index:
+app_index:
     path: /
     controller: App\Controller\PingController::ping
 
-finances_summary:
+app_finances_summary:
     path: /finances
     controller: App\Controller\FinancesController::summary
 
-finances_incomes:
+app_finances_incomes:
     path: /finances/incomes
     controller: App\Controller\FinancesController::incomes
