@@ -4,8 +4,10 @@ app_index:
 
 app_finances_summary:
     path: /finances
+    methods: GET
     controller: App\Controller\FinancesController::summary
 
 app_finances_incomes:
     path: /finances/incomes
+    methods: GET
     controller: App\Controller\FinancesController::incomes

@@ -1,4 +1,7 @@
 {
+    "monolog/monolog": {
+        "version": "2.1.1"
+    },
     "php": {
         "version": "7.4"
     },
@@ -25,6 +28,9 @@
         "files": [
             "config/packages/security_checker.yaml"
         ]
+    },
+    "symfony/asset": {
+        "version": "v5.1.7"
     },
     "symfony/cache": {
         "version": "v5.1.7"
@@ -118,6 +124,24 @@
     "symfony/mime": {
         "version": "v5.1.7"
     },
+    "symfony/monolog-bridge": {
+        "version": "v5.1.7"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "d7249f7d560f6736115eee1851d02a65826f0a56"
+        },
+        "files": [
+            "config/packages/dev/monolog.yaml",
+            "config/packages/prod/deprecations.yaml",
+            "config/packages/prod/monolog.yaml",
+            "config/packages/test/monolog.yaml"
+        ]
+    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.18.1"
     },
@@ -161,6 +185,25 @@
     },
     "symfony/var-exporter": {
         "version": "v5.1.7"
+    },
+    "symfony/webpack-encore-bundle": {
+        "version": "1.6",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.6",
+            "ref": "69e1d805ad95964088bd510c05995e87dc391564"
+        },
+        "files": [
+            "assets/app.js",
+            "assets/styles/app.css",
+            "config/packages/assets.yaml",
+            "config/packages/prod/webpack_encore.yaml",
+            "config/packages/test/webpack_encore.yaml",
+            "config/packages/webpack_encore.yaml",
+            "package.json",
+            "webpack.config.js"
+        ]
     },
     "symfony/yaml": {
         "version": "v5.1.7"
