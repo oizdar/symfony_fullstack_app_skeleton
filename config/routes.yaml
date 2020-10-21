@@ -1,5 +1,9 @@
 app_index:
     path: /
+    controller: App\Controller\AppController::index
+
+app_ping:
+    path: /ping
     controller: App\Controller\PingController::ping
 
 app_finances_summary:

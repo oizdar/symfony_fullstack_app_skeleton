@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "vue/no-unused-vars": "error",
+    "vue/html-indent": ["error", 4],
+    "indent": ["error", 4],
+    "no-alert": 0,
+    "spaced-comment": "off",
+    "no-unused-vars": "warn",
+    "no-console": "warn"
+  }
+}
